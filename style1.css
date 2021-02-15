@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+a{text-decoration: none;}
+li{text-decoration: none;
+list-style: none;}
+body{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    position: relative;
+    }
+
+nav{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    text-transform: uppercase;
+    
+text-align: left;
+padding: 20px;
+}
+.topnav{
+    
+    font-size: 14px;
+    margin-top: 50px;
+    
+
+}
+.topnav a{
+    
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 15px;
+}
+.topnav a:hover{
+    
+    color: #fff;
+    background-color: brown;
+    box-shadow: cadetblue;
+    
+    border-radius: 10px;
+}
+
+.topnav .icon{
+    display: none;
+}
+.topnav only-first-child{
+    font-size: 30px;
+}
+.topnav a:first-child{
+    margin-right: 240px;
+    font-size: 20px;
+
+}
+
+img {
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+    box-decoration-break: none;
+    
+  }
+.im2{
+    background-image: url("../image/beki11.jpeg");
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top:300px;
+    left: 520px;
+    border-radius: 400px;
+    
+    opacity: 0.3;
+    
+}
+.im2:hover{
+    background-image: url("../image/beki12.jpg");
+    
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top:290px;
+    left: 520px;
+    border-radius: 400px;
+    opacity: 1;
+}
+
+.name{
+    font-size: 30px;
+    position: absolute;
+    top:680px;
+    left:600px;
+    opacity: 0.2;
+}
+.name:hover{
+    font-size: 30px;
+    position: absolute;
+    top:680px;
+    left:600px;
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 760px){
+    .topnav a:not(:first-child){
+        display: none;
+    }
+    .topnav a:icon{
+        float: right;
+        margin-top:-17px ;
+        display: block;
+        color: #000;
+
+    }
+}
